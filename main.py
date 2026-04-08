@@ -421,6 +421,6 @@ def end_game_handler(message):
 def welcome_game(game_name, game_func, message):
     bot.send_message(chat_id=message.chat.id, text=f'Добро пожаловать в игру "{game_name}"')
     game_func(message)
-
+print(111)
 
 bot.infinity_polling()
